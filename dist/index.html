@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <script type="module" crossorigin src="./assets/index-vQ1HtETh.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-C3DzRBmO.css" />
+  </head>
+  <body>
+    <h1
+      class="text-2xl font-semibold font-serif p-4 text-center bg-slate-300 text-blue-900"
+    >
+      To-Do List
+    </h1>
+    <form id="formEl">
+      <div class="flex justify-center items-center">
+        <input
+          type="text"
+          id="itemInput"
+          placeholder="Enter the list name"
+          class="bg-gray-200 p-4 rounded-md m-4"
+        />
+        <button
+          class="text-2xl font-extrabold bg-red-500 text-white rounded-xl hover:bg-red-950 cursor-pointer p-2"
+          id="addBtn"
+        >
+          +
+        </button>
+      </div>
+    </form>
+    <h1
+      class="font-semibold text-xl bg-slate-400 max-w-sm text-center p-2 text-blue-700 font-serif rounded m-4"
+    >
+      Total List :
+    </h1>
+    <ul class="font-mono" id="listItem">
+      <div class="bg-gray-600 max-w-sm p-2 rounded text-white m-4">
+        <li class="flex items-center justify-between">
+          Milk
+          <button class="bg-red-600 p-2 rounded hover:bg-red-700 deleteBtn">
+            x
+          </button>
+        </li>
+      </div>
+      <div class="bg-gray-600 max-w-sm p-2 rounded text-white m-4">
+        <li class="flex items-center justify-between">
+          Coffee
+          <button class="bg-red-600 p-2 rounded hover:bg-red-700 deleteBtn">
+            x
+          </button>
+        </li>
+      </div>
+      <div class="bg-gray-600 max-w-sm p-2 rounded text-white m-4">
+        <li class="flex items-center justify-between">
+          Boost
+          <button class="bg-red-600 p-2 rounded hover:bg-red-700 deleteBtn">
+            x
+          </button>
+        </li>
+      </div>
+    </ul>
+  </body>
+</html>
